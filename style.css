@@ -135,4 +135,29 @@
 		inset: 40px 40px 200px 40px;
 		background: #ccc;
 	}
+	.slider .slides {
+		width: 100px;
+		height: 100px;
+		top: initial;
+		bottom: -170px;
+	}
+
+	.slider .slides:nth-child(1),
+	.slider .slides:nth-child(2) {
+		top: initial;
+		bottom: 0px;
+	}
+
+	.slider .slides:nth-child(3) {
+		left: 0;
+	}
+	.slider .slides:nth-child(4) {
+		left: 120px;
+	}
+	.slider .slides:nth-child(5) {
+		left: 240px;
+	}
+	.slider .slides:nth-child(6) {
+		left: 360px;
+	}
 }
